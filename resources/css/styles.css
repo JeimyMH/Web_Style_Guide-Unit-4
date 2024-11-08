@@ -5,7 +5,7 @@
 
 * {
   font-family: 'Lato', sans-serif;
-  color: #777;
+  color: $blizzard-blue;
   box-sizing: border-box;
 }
 
@@ -23,17 +23,17 @@ a {
 /* ============================================= */
 
 .headline-primary {
-  color: #58e1c1;
+  color: #DCB4BC;
   margin-left: 10px;
 }
 
 .headline-secondary {
   font-weight: 300;
-  color: #777;
+  color: $blizzard-blue;
 }
 
 .link {
-  color: #51ddfc;
+  color: #0000FF;
   font-weight: 700;
 }
 
@@ -43,7 +43,7 @@ a {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #58e1c1;
+  border-left: 8px solid #DCB4BC;
   border-radius: 5px;
 }
 
@@ -111,7 +111,7 @@ a {
 }
 
 .theme.col-11 {
-  background-color: #51ddfc;
+  background-color: #0000FF;
 }
 
 .theme.col-12 {
@@ -146,8 +146,8 @@ a {
 }
 
 .nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1;
+  color: #496679;
+  background-color: #DCB4BC;
 }
 
 
@@ -158,7 +158,7 @@ a {
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: #496679;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -166,7 +166,7 @@ a {
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: #0000FF;
 }
 
 .error {
@@ -200,7 +200,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
+  border-bottom: 5px solid #DCB4BC;
 }
 
 .hidden {
@@ -233,7 +233,7 @@ a {
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
-  border: 1px solid #ccc;
+  border: 1px solid #9999CC;
 }
 
 .img-logo {
@@ -246,7 +246,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media #($brk-narrow) {}
 
 .container {
   max-width: 1400px;
