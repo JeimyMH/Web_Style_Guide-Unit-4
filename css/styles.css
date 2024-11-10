@@ -327,7 +327,7 @@ template {
 /* ============================================= */
 * {
   font-family: "Lato", sans-serif;
-  color: #A3E3ED;
+  color: #000C0e;
   box-sizing: border-box;
 }
 
@@ -349,7 +349,7 @@ a {
 
 .headline-secondary {
   font-weight: 300;
-  color: #A3E3ED;
+  color: #000C0e;
 }
 
 .link {
