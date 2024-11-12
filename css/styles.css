@@ -343,7 +343,7 @@ a {
 /*              Typography                       */
 /* ============================================= */
 .headline-primary {
-  color: $blizzard-blue;
+  color: #057af8;
   margin-left: 10px;
 }
 
@@ -363,7 +363,7 @@ a {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid $blizzard-blue;
+  border-left: 8px solid #057af8;
   border-radius: 5px;
 }
 
@@ -416,7 +416,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid $blizzard-blue;
+  border-bottom: 5px solid #057af8;
 }
 
 .hidden {
@@ -449,7 +449,7 @@ a {
 
 .nav-link:hover {
   color: #496679;
-  background-color: $blizzard-blue;
+  background-color: #057af8;
 }
 
 /* ============================================= */
