@@ -1,7 +1,6 @@
-<<<<<<< HEAD:scss/components/_forms.scss
-/* ============================================= */
+HEAD:scss/components/_forms.scss
+
 /*              Forms                            */
-/* ============================================= */
 
 .form {
   flex-basis: 100%;
@@ -23,30 +22,5 @@
   width:1px;
   height:1px;
   overflow:hidden;
-=======
-/* ============================================= */
-/*              Forms                            */
-/* ============================================= */
-
-.form {
-  flex-basis: 100%;
-}
-
-.input{
-  display: block;
-  width: 94%;
-  margin: 10px auto 0;
-  border: none;
-  padding: 10px;
-  border-bottom: 5px solid $blizzard-blue;
-}
-
-.hidden {
-  position:absolute;
-  left:-10000px;
-  top:auto;
-  width:1px;
-  height:1px;
-  overflow:hidden;
->>>>>>> 6820921d7f10215969a6a83934f8b4201fb56f00:Unit 4 - Web Style Guide/scss/components/_forms.scss
+6820921d7f10215969a6a83934f8b4201fb56f00:Unit 4 - Web Style Guide/scss/components/_forms.scss
 }
