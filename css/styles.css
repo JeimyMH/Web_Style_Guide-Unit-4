@@ -1,11 +1,11 @@
-/* Error: expected ";".
- *   ,
- * 9 | $blue            :
- *   |                  ^
- *   '
- *   scss\utilities\_variables.scss 9:18  @import
- *   scss\utilities\_index.scss 4:10      @import
- *   scss\styles.scss 4:10                root stylesheet */
+/* Error: expected "}".
+ *    ,
+ * 48 |   border-radius: 5px;
+ *    |                      ^
+ *    '
+ *   scss\base\_typography.scss 48:22  @import
+ *   scss\base\_index.scss 5:10        @import
+ *   scss\styles.scss 5:10             root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -15,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a   \2577 \a 9 \2502  $blue            :\a   \2502                   ^\a   \2575 \a   scss\\utilities\\_variables.scss 9:18  @import\a   scss\\utilities\\_index.scss 4:10      @import\a   scss\\styles.scss 4:10                root stylesheet';
+  content: 'Error: expected "}".\a    \2577 \a 48 \2502    border-radius: 5px;\a    \2502                       ^\a    \2575 \a   scss\\base\\_typography.scss 48:22  @import\a   scss\\base\\_index.scss 5:10        @import\a   scss\\styles.scss 5:10             root stylesheet';
 }
