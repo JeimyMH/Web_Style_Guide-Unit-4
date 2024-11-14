@@ -35,7 +35,7 @@ body {
 }
 
 /**
- * Render the `main` element consistently in IE.
+ * Render the `main` element consistently in all browsers.
  */
 main {
   display: block;
@@ -53,8 +53,8 @@ h1 {
 /* Grouping content
    ========================================================================== */
 /**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
+ * 1. Add the correct box sizing in Google.
+ * 2. Show the overflow in Safari and IE.
  */
 hr {
   box-sizing: content-box; /* 1 */
@@ -82,7 +82,7 @@ a {
 
 /**
  * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ * 2. Add the correct text decoration in all browsers.
  */
 abbr[title] {
   border-bottom: none; /* 1 */
